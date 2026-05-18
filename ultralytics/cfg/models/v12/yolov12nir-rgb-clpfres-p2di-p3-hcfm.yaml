@@ -1,0 +1,79 @@
+ch: 6
+nc: 1 # number of classes
+scales:
+  # [depth, width, max_channels]
+  n: [0.50, 0.25, 1024]
+  s: [0.50, 0.50, 1024]
+  m: [0.50, 1.00, 512]
+  l: [1.00, 1.00, 512]
+  x: [1.00, 1.50, 512]
+
+# Combined innovation model:
+# 1) CLPFRes three-stage RGB-IR predictive residual fusion.
+# 2) P2-to-P3 shallow detail injection without adding a P2 detection head.
+# 3) HCFM high-frequency contextual focus on the final P3 small-object feature.
+backbone:
+  - [-1, 1, IN, []]  # 0
+  - [-1, 1, Multiin, [1]]  # 1 VIS
+  - [-2, 1, Multiin, [2]]  # 2 IR
+
+  - [1, 1, Conv, [64, 3, 2]]  # 3 VIS P1/2
+  - [-1, 1, C3k2, [64, False, 0.25]]  # 4 VIS
+  - [2, 1, Conv, [64, 3, 2]]  # 5 IR P1/2
+  - [-1, 1, C3k2, [64, False, 0.25]]  # 6 IR
+
+  - [4, 1, Conv, [128, 3, 2]]  # 7 VIS P2/4
+  - [-1, 2, C3k2, [128, False, 0.25]]  # 8 VIS P2 detail
+  - [6, 1, Conv, [128, 3, 2]]  # 9 IR P2/4
+  - [-1, 2, C3k2, [128, False, 0.25]]  # 10 IR P2 detail
+
+  - [8, 1, Conv, [256, 3, 2]]  # 11 VIS P3/8
+  - [-1, 2, C3k2, [256, False, 0.25]]  # 12 VIS P3
+  - [10, 1, Conv, [256, 3, 2]]  # 13 IR P3/8
+  - [-1, 2, C3k2, [256, False, 0.25]]  # 14 IR P3
+
+  - [[12, 14], 1, CLPFRes, [256, 0.25, 0.25, 16, 2, 1.0]]  # 15 CLPFRes P3
+  - [[12, 15], 1, FeatureAdd, []]  # 16 VIS residual update
+  - [[14, 15], 1, FeatureAdd, []]  # 17 IR residual update
+
+  - [16, 1, Conv, [512, 3, 2]]  # 18 VIS P4/16
+  - [-1, 2, C3k2, [512, False, 0.25]]  # 19 VIS P4
+  - [17, 1, Conv, [512, 3, 2]]  # 20 IR P4/16
+  - [-1, 2, C3k2, [512, False, 0.25]]  # 21 IR P4
+
+  - [[19, 21], 1, CLPFRes, [512, 0.25, 0.25, 12, 2, 1.0]]  # 22 CLPFRes P4
+  - [[19, 22], 1, FeatureAdd, []]  # 23 VIS residual update
+  - [[21, 22], 1, FeatureAdd, []]  # 24 IR residual update
+
+  - [23, 1, Conv, [1024, 3, 2]]  # 25 VIS P5/32
+  - [-1, 2, A2C2f, [1024, True, 1]]  # 26 VIS P5
+  - [24, 1, Conv, [1024, 3, 2]]  # 27 IR P5/32
+  - [-1, 2, A2C2f, [1024, True, 1]]  # 28 IR P5
+
+  - [[26, 28], 1, CLPFRes, [1024, 0.125, 0.25, 8, 2, 1.0]]  # 29 CLPFRes P5
+
+head:
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]]  # 30 P5->P4
+  - [[-1, 22], 1, Concat, [1]]  # 31
+  - [-1, 2, A2C2f, [512, False, -1]]  # 32 refined P4
+
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]]  # 33 P4->P3
+  - [[-1, 15], 1, Concat, [1]]  # 34
+  - [-1, 2, A2C2f, [256, False, -1]]  # 35 refined P3
+
+  # P2 detail injection into P3: preserve shallow small-object cues without a costly P2 detection head.
+  - [[8, 10], 1, Concat, [1]]  # 36 P2 VIS/IR detail
+  - [-1, 1, Conv, [256, 3, 2]]  # 37 downsample P2 detail to P3 scale
+  - [-1, 1, HCFM, [0.25, 0.25]]  # 38 high-frequency contextual detail prior
+  - [[35, 38], 1, FeatureAdd, []]  # 39 inject detail prior into P3
+  - [-1, 1, HCFM, [0.25, 0.25]]  # 40 final P3 small-object focus
+
+  - [-1, 1, Conv, [256, 3, 2]]  # 41 P3->P4
+  - [[-1, 32], 1, Concat, [1]]  # 42
+  - [-1, 2, A2C2f, [512, False, -1]]  # 43 refined P4 out
+
+  - [-1, 1, Conv, [512, 3, 2]]  # 44 P4->P5
+  - [[-1, 29], 1, Concat, [1]]  # 45
+  - [-1, 2, C3k2, [1024, True]]  # 46 refined P5 out
+
+  - [[40, 43, 46], 1, Detect, [nc]]  # Detect(P3, P4, P5)

@@ -1,0 +1,97 @@
+ch: 6
+nc: 6 # number of classes
+scales: # model compound scaling constants, i.e. 'model=yolo11n.yaml' will call yolo11.yaml with scale 'n'
+  # [depth, width, max_channels]
+  n: [0.50, 0.25, 1024]
+  s: [0.50, 0.50, 1024]
+  m: [0.50, 1.00, 512]
+  l: [1.00, 1.00, 512]
+  x: [1.00, 1.50, 512]
+
+# YOLO11n backbone
+backbone:
+  # [from, repeats, module, args]
+  - [-1, 1, IN, []]  # 0
+  - [-1, 1, Multiin, [1]]  # 1     可见光
+  - [-2, 1, Multiin, [2]]  # 2     红外
+
+  # two stream backbone
+  # Visible branch
+  - [1, 1, Conv, [64, 3, 2]] # 3-P1/2
+  - [-1, 1, Conv,  [128, 3, 2, 1, 2]] # 4-P2/4
+  - [-1, 2, C3k2,  [256, False, 0.25]]
+  # Infrared branch
+  - [2, 1, Conv, [64, 3, 2 ] ] # 6-P1/2
+  - [-1, 1, Conv,  [128, 3, 2, 1, 2]] # 7-P2/4
+  - [-1, 2, C3k2,  [256, False, 0.25]]
+
+  # --- Fusion Stage 1 (remove CWF: bypass with visible feature) ---
+  - [5, 1, IN, []] # 9 (bypass original CascadeWaveletFusion([5,8]))
+
+  - [-1, 1, Conv,  [256, 3, 2, 1, 4]] # 10-P3/8 (visible)
+  - [-2, 1, Conv,  [256, 3, 2, 1, 4]] # 11-P3/8  (infrared)
+
+  # --- Fusion Stage 2 (remove CWF: bypass with visible path) ---
+  - [10, 1, IN, []] # 12 (bypass original CascadeWaveletFusion([10,11,9]))
+
+  - [-1, 2, C3k2,  [512, False, 0.25]] #13
+  - [-1, 1, Conv,  [512, 3, 2]] #14 P4
+  - [-3, 2, C3k2,  [512, False, 0.25]] #15
+  - [-1, 1, Conv,  [512, 3, 2]] #16
+
+  # --- Fusion Stage 3 (remove CWF: bypass with visible path) ---
+  - [14, 1, IN, []] # 17 (bypass original CascadeWaveletFusion([14,16,12]))
+
+  - [-1, 4, A2C2f, [512, 512, 4, True, 4]] #18
+  - [-1, 1, Conv,  [1024, 3, 2]] # 19 P5
+  - [-1, 4, A2C2f, [1024, 1024, 4, True, 1]] # 20
+  - [-4, 4, A2C2f, [512, 512, 4, True, 4]] #21
+  - [-1, 1, Conv,  [1024, 3, 2]] # 22
+  - [-1, 4, A2C2f, [1024, 1024, 4, True, 1]] # 23
+
+  # 后续结构保持不变
+  - [[5,8], 1, Concat, [1]]  # 25
+  - [ -1, 1, GLFA, [ 256 ] ]  # 26
+  - [[13, 15], 1, Concat, [1]]  # 27 p3
+  - [ -1, 1, GLFA, [ 512 ] ]  # 28
+  - [[18, 21], 1, Concat, [1]]  # 29 p4
+  - [ -1, 1, GLFA, [ 1024 ] ]  # 30
+  - [[20, 23], 1, Concat, [1]]  # 31 p5
+  - [ -1, 1, GLFA, [ 2048 ] ]  # 32
+
+# YOLO12-turbo head
+head:
+  # P5 -> P4
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]] #33
+  - [[-1, 29], 1, Concat, [1]] #34 cat backbone P4 30
+  - [-1, 2, A2C2f, [512, False, -1]] #  35
+
+  # P4 -> P3
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]] #36
+  - [[-1, 27], 1, Concat, [1]] # cat backbone P3 37
+  - [-1, 2, A2C2f, [256, False, -1]] #  38
+
+  # P3 -> P2
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]] #39
+  - [[-1, 25], 1, Concat, [1]] # cat backbone P2 #40
+  - [-1, 2, A2C2f, [256, False, -1]] # 41
+
+  # P2 -> P3
+  - [-1, 1, Conv, [256, 3, 2]] #42
+  - [[-1, 37], 1, Concat, [1]] # cat head P3 #43
+  - [-1, 2, A2C2f, [512, False, -1]] # 44
+
+  # P3 -> P4
+  - [-1, 1, Conv, [512, 3, 2]] #45
+  - [[-1, 34], 1, Concat, [1]] # cat head P4 #46
+  - [-1, 2, A2C2f, [1024, False, -1]] # 47
+
+  # P4 -> P5
+  - [-1, 1, Conv, [1024, 3, 2]] #48
+  - [[-1, 31], 1, Concat, [1]] # cat head P5 #49
+  - [-1, 2, A2C2f, [1024, False, -1]] # 50
+
+  - [[40, 43, 46, 49], 1, Detect, [nc]] # 51   Detect(P2, P3, P4, P5)
+
+
+

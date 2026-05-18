@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1111.603861pt" height="285.84pt" viewBox="0 0 1111.603861 285.84" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-17T13:05:13.136320</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 285.84 
+L 1111.603861 285.84 
+L 1111.603861 -0 
+L 0 -0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g clip-path="url(#pa1c71fd714)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAT4AAAE+CAYAAAAUOHwwAAAUuklEQVR4nO3dSYxl51nG8e8759xb81zVVT250+12D5HpJJZJDIuYReJIGCSEhILAIGUDAiLBjg1iwYIlYgdI7JAQwogFIhIKYCRGExIbO/HQttt2z1N1d83jPedjwRKk+5fSq37/v/Wjc7punXr6Lr73vPkr1c+VBOS6JrFUOnS5lLoWxarxcXa53V12vclJlCt7+8MzLfwZRkdQLo+wXCody8HfWYI/R8oVyzUNinVr6+y2/R7Klf3hv7OUUqoW5lEuwWe5vX8f5erpaXZf8Htr1zfQpSr42dFnpdveRjn6LJeDA3a9fh/lKPgkS9KTw+KTFI7FJykci09SOBafpHAsPknhWHySwrH4JIVj8UkKp0kFTlpQcKog09P9YIIiJT5Zkjo49QB+jmpsFF4Lfsb0sxtl9y2DAcp122zqpRzCU/bw1H41zaZo2oePUK6emkK5dHCIYgVOA9WLCyjXPniIcuie8GelkxH0Gc09NkFRDtmzV9EJD/o3BKdt/MYnKRyLT1I4Fp+kcCw+SeFYfJLCsfgkhWPxSQrH4pMUjsUnKZyGTlDQ/RIUfYd+Rf998IR6t7uHcmQShO4faFaWUW5wbxXlarj7gk4e0AkKuksjwx0j7Z177L7w1H63s4Ny9fGjKJcn2L4XPOExO4tyBN25Uc/NoFy3xZ5lKvfoZBb7e0w5s1jDdoz4jU9SOBafpHAsPknhWHySwrH4JIVj8UkKx+KTFI7FJykci09SOA2dyKDvxqcnsekp+1TRXRpwsgRej+zTKH12SpxOPDTHVlCug6f2UwX/X4PPAJ226VbZbol6aRHl6GRE7rHfR4FTCgXue6mWl1Auwamh9v7wCZ7mCPvsus0tlKum4PQO3eMCf1YMTitRfuOTFI7FJykci09SOBafpHAsPknhWHySwrH4JIVj8UkKx+KTFE5DT0SXtmNXhO/Gp/et6T6IHpsqKJubKNftDz+1X01Ps3tusHu2G2wiI8OftT7BdktQg0+voVw1znZV0AmUvMymFAYffcKuBydpqtNPoVx77SbK1YsLKEf+fXQ/C919keFekwR20aTEJp9SSqnr2H1zzfqC/N2m5Dc+SQFZfJLCsfgkhWPxSQrH4pMUjsUnKRyLT1I4Fp+kcCw+SeE0qbCJjDJgObqXAYOn7OlERh4bYzlw3/b+fXSt5sRxlKsODlCuXHwa5br3rrD7zs2iXIan9gfPn0O5/jW2m6PA3SF0IiNfOMvu+8l1dr3zp1Gu+4hNvhQyRQF3zFRjcPIJTlC0a2soV8/OohydyKByw/au+I1PUjgWn6RwLD5J4Vh8ksKx+CSFY/FJCsfikxSOxScpHItPUjhNNTKCgvRd9vR0P313f9nZZfedmmK5cbYLoIBdBTWcemnvsgmP9PnzLNfB/SfQ/vljLAhz/btwr8k0281RrW+jHFU9WEO59rNnUK781/dRrl6YR7kM9tZkOG1TJtlnXG7fQ7kKTj6lCu7egbqDQ5Sj/eM3PknhWHySwrH4JIVj8UkKx+KTFI7FJykci09SOBafpHAsPknh5K/2fh69bJ/uqui2tlCOnmJvH66hXDUBpwDmZ9l9b90dmsl99n7/fIrt3Cg9OPUCdSNsB0W1P2C5u2xHRhqD0zEbbMJj88VnUG7i+g7KVY/YM5rABEVKKe2fnEO5/uvvoVy1cmR4aHcPXSvBfSWDm7dQju6PSS3bCdJtPd6pHLrDw298ksKx+CSFY/FJCsfikxSOxScpHItPUjgWn6RwLD5J4Vh8ksJpUmbdR/YApJQS3eFBd2nUkxPsegM2fUBP49eLwydL6KnzwSybeuldf4By3TzbL7Jzgk2zjDxk+wx6H7PJiPsvs10VUzfYfafeYZ9LgrtNtl5ku01G77M9M/1V9hwcvHAR5Xobw++bf3AHXSuPsr/Hapw9K6mgQa80uM3+ffX0NLsv3eUD9+D4jU9SOBafpHAsPknhWHySwrH4JIVj8UkKx+KTFI7FJymcphwesOQMOzRb9tmhz2pqkl1vfYNdb3GBXa9hByFzHn7wsxrpo2tVtx6hXIKvzV6/MMOuBz14lr0q/uhb8FX28Cz5/c+zz+/UD9jB6W6PPXuDUfY5d332rOydYYdwJ/6RvXq+vfT00EzdY2sPCvxMCjyYnHrsGaiXwevzU8Kv0C+7bOCBrsjwG5+kcCw+SeFYfJLCsfgkhWPxSQrH4pMUjsUnKRyLT1I4Fp+kcNgx7MRfFZ/hK6Jzn53abw/Y68nzNjzdvzSLcqke/op6erK/uXKb3RP+rP3NFuXWzrLT/dNX2ajF2kvsle0Lb62j3M7KLMqlPpxSePYsyk3cgtMMDVtTMPW9WyjXdfC16PvDfx95lE3bpOVFFCvX2c9QtlkP0FfAt5ubKEdXWrR00gulJOkJYvFJCsfikxSOxScpHItPUjgWn6RwLD5J4Vh8ksKx+CSFwyc3WjYtkDr27v7uwUOUyxU7PZ9W2An1em0L5bqp4e/uL2NwomCF7QNJH15FseqAnYqfuM1+Z4+eYY/B3EdswqNaZZMbR/+NTe9sX2D7Gx6dZ7+PsVX2+c18sI1y177+FModeWMZ5UbfvTE008GJh7TNfgY6GdFtsMkIit63DNizV8/PsvuilCQ9QSw+SeFYfJLCsfgkhWPxSQrH4pMUjsUnKRyLT1I4Fp+kcPJLY6+gUYs8Ct95v8ZO7TcnjqNcKmwSZHD7Lsrl5y6y600Onypo/vVtdK366ArKrf7ESZRr6bqFf4B7FMbZBTfPz7LcCbaLZPs4+90uvcFyhxNsymfjNIql07/3PZSrTrPf28YlNl3UgX0vM++soWtluMel++Q6ylVwMoIqcEdGgT2QM3sG/MYnKRyLT1I4Fp+kcCw+SeFYfJLCsfgkhWPxSQrH4pMUjsUnKZz8lfrr6Eh0vQT3RuzuoVg5OEC5PDmBct1JNh1RP4K7CvaH//sOP8N2KPSur6Jc9/ARyuUJ9pnkhk1QlInh+0VSSilV7P/J939nBuXO/jHbCbJ2bhzljn3jY5S78WdnUO5ghk0BnPzLayiXOrbro717b2imgn8Xqcf2mpSdHZbb32f3hejP0W3volyu2TPqNz5J4Vh8ksKx+CSFY/FJCsfikxSOxScpHItPUjgWn6RwLD5J4eSXpr8BFxrAd/fDd/w3R9j+Afqu/TTPpgXyPvv37Z+aH5ppNtn0CdnfkVJKq5fY7ouFd9jp+dEP2B6S9t59lNv5m2MotzdoUO5nTrKdJd/+7S+j3PhVtu+lff8Kyh189Qsot3Okh3Kzl7dQLrfDJzy2T02ia01/5wbKpR77nZUxtnsn3WbPVOqzzy7DqaECp2P8xicpHItPUjgWn6RwLD5J4Vh8ksKx+CSFY/FJCsfikxSOxScpnPy1xV9hoxEV29/Q3ocntqF6bo4Fjx1BscNFtr+h+e4HQzPtpbPoWvUmm7S49tPDp0VSSqljgyBpb2WAcjPvslP7LRssSaOr7JE68vdsV8W3vvMtlPvmzS+hXJXZ6f7Xrp1Duam/mkK5w3G2wyOB2MQdtq9k4j/YlEqeYH8X7Z3h+0BSSql6+hTKpQdrKNY9ZDm6w8NvfJLCsfgkhWPxSQrH4pMUjsUnKRyLT1I4Fp+kcCw+SeFYfJLCaQrckZEbOOAxxU6x5/ExloPv2u8alqv+he15yEsLQzPbJ9gow+E4OxV/7N93UW7tDLvvyW+ziZF6l+2CuPryLModzLIJhbU/ZfsbXv7ST6Hcr772Gsr9xT024dH+N9vjUg3YJMjS649Qbv3Z2aGZ3iabyin7cC/MuRMo10yyZznB3Re5YVND1TTbMVJ299j1UEqSniAWn6RwLD5J4Vh8ksKx+CSFY/FJCsfikxSOxScpHItPUjhNOWAnu7stdrq/PrLE7tyynQFlwE6op8ImS3KPnRRPM8MnUCZf/U92z+efZff8/ocotvQOO8VOT8Vf+fUzKNee3UG5vUdsIuNPzr2Kcr/xk99EuT/4zV9EuRuvsGmlZ/76Icpd+QW2F2by1csod/jFF4Zm6n9+i13rxc+h3MinD1CunYcTFG++j3L1/CzK5TE26UUn0fzGJykci09SOBafpHAsPknhWHySwrH4JIVj8UkKx+KTFI7FJymcJnVw4qHfZ1eEkxb4eqNsCiDtwx0E8OclOwPoZETXq1Euf+4cyl3/MttrsvI6m7R4+o8+Qbk0xnZ9vPe7w/eVpJTSL73KJjLO/e1VlCv7bMdI/7nzKJeuXkGx8dvzKLf9s19EucU/f3NopsAJpK5m+0/KDtv3Um1solw+xXZ40ImrNGCTXniHB7urJD05LD5J4Vh8ksKx+CSFY/FJCsfikxSOxScpHItPUjgWn6RwmgwnI/CUwtY2u3MHd3isHGHXgyfZyxfYqf18a/i+hfr4UXSt/ekeyo19uoZy9QGb3LjzY+MotzB1EuXu/ij7OZrb7DT+2T9kkxHv/v5TKLf8GtynwoYZUjnL7pvZUEGauryOct3e3tDM4UvPo2v1/+ltlEvTcJfGUfj3uM92+aSHaywHJ67o9I7f+CSFY/FJCsfikxSOxScpHItPUjgWn6RwLD5J4Vh8ksKx+CSF05DdEiml1K5vsCsWdr16ge0pGFy/gXLN0RWUq8bZpEoZHb4TJO8fomv1H7HT5GWETR4svcn2I9x7bgzl+mvslH07Cicj4BqFNDWBYhd+6zLK0emiGfgs5wk2+TJ9/CLKlQ/ZbpPmxPGhmW4H7pgZsGc0LS+y3NWbKNbtwh0ec3Psvi17RjPcC+M3PknhWHySwrH4JIVj8UkKx+KTFI7FJykci09SOBafpHAsPknh5JfGXkHn7HN/+CRDSimlii006HaH7xVIKaX66DK7b8smRuikShoBP+8BOxVfwA6FlFLKk2ySYfsi+0xG/u67KFdPsR0e9HdG3fk1tjdi9CH7nU1dZxMyzRsfoVx38TMoV+2zKYp89RbLzc0OD8FnDz3HKaXUssUhg2tskqqaZDs86LRNOYCTG7Cn/MYnKRyLT1I4Fp+kcCw+SeFYfJLCsfgkhWPxSQrH4pMUjsUnKZymDNip81Sxjux2dn6If87/Y5+d2O62tlGuwF0A9fKR4fecm0bXytc2Ua6bYZMbo6+9jXKprlGsvXAK5UqPXe9wqodyU9fZtMDOEnv28gGb8KiWFlBud4Htb5h48xrKpXm2X6IF0xEFTlpUly6gXN5mUznNCpsaon+P3Sb72ygdW+SS99n0jt/4JIVj8UkKx+KTFI7FJykci09SOBafpHAsPknhWHySwrH4JIXT5LExloS7KqoJNn1AJzzKHjyJvQBPxd9gkxtkoiUXdpo8nVhhOXq9Z8+iWH1vnV3v5gMU2/mR4yhX4H+n9PMbX2XPXr3DpnzK2AjK9XbYVFO3PI9y9PebPzv895vh6pj8yU0WhAZwIqOeZjs3Ojg5Vo2yKRrKb3ySwrH4JIVj8UkKx+KTFI7FJykci09SOBafpHAsPknhWHySwmm67ce7I6OegXso6K6PPtvfUDa3UI7s0kgppQLe3Z8fwskIqGyw/QP59El2PbhfpH3wEOVGl2ZRLn88fGdESint/vh5lEuJTTwcLI6j3OjlOyhXvXMZ5boXLqFc8+lddj0wCZI7tnMjw4mm7u59lKvG4ARFr49iGea6g0OUq2Bf+I1PUjgWn6RwLD5J4Vh8ksKx+CSFY/FJCsfikxSOxScpnPzSxC+z06Hw1fPkle3/e2fWudUEfDX+CHudeK5g15Ncyw6RDu6tolzuNSx3/jTKVVt7KDf4+FN2X3jYtDrH/n0tPCBcjbODydUKPJw+wg65pgH7/ZZb7GBydWQR5dBh4rpm95xkqyDKAXttf6rYfRMYAEiJ90UHD+Nn+rmglCQ9QSw+SeFYfJLCsfgkhWPxSQrH4pMUjsUnKRyLT1I4Fp+kcJpuj52wxlMFDctR7foGytXz7BXb7dY2vPHwU/v01Hm9tIRyGb42e/D2+yhXrSyz3AQ73Y8nD65cRbn6mTMol9bYK/m7aTbhUd67gnL0NetkTUFKKZUGThWAz7m7c4/d8zFPZJQduKqiwIEw2D/0erkPp4vYXSXpyWHxSQrH4pMUjsUnKRyLT1I4Fp+kcCw+SeFYfJLCsfgkhdOkju0VSG1GMXa+OqXS0STTbWyhXDUzxa63Ofx6NdwFQXVr6yhXn2U7LUpmv7O0wSYjyhY8td9jEyjlDtgtkVLqttjvtoGTL2V6GuXaVbYrpRpje2HywSG7L5jKKIdsaqiq4WQWfJbplEqGO3CqUZajEx4F7sHxG5+kcCw+SeFYfJLCsfgkhWPxSQrH4pMUjsUnKRyLT1I4Fp+kcBq6IwNPWtBJkMeM7gTp1tmUAroePJ1OJzLozo20yfaG0PvSvQz0f0k6VVCfOMruOzvD7gt/jgynBZpj7N/X3mMTHglOblTkuZpke1Io/KzAyYiyu4dyuWLTRRWdyoG7OfzGJykci09SOBafpHAsPknhWHySwrH4JIVj8UkKx+KTFI7FJymchp7EznWNcqVjN65GR1Gu24MnwOEESoJ7KDpy8nyH7aCo5+ZQDhvAfQuPebcERZ+pRPcowIkMOi3Q7u6iHJqgSCklOH1Q4M+LwEmqAn/WMoBTJXC/SOpYEZQW5uBEBt5FglKS9ASx+CSFY/FJCsfikxSOxScpHItPUjgWn6RwLD5J4Vh8ksJpEjwRnTLryAxPu9OT2KliEyPtxga7HJwYIZMqBY6p0NPzdEqlXphn14N7FOoZNuGBpllSStXEOLveFtsdQj+/Cn4u9Rh7Buizl+GeGTq5kfv9oZl2bQ1di/7d0h7oHuf0SUp41Cs3cB8NvJ7f+CSFY/FJCsfikxSOxScpHItPUjgWn6RwLD5J4Vh8ksKx+CSF09AdFBjdt0DBU/F4lwacjqjGh08f5Br+v1E95v9f4L6FaoLtR2g3tn6Yf83/Qfce0D0uZJIhpZTKOpveoXsecp9NC3Rw9wreW7M/fDqCTjLkHttF08HpmAz3i1BlACe46DIfOIHiNz5J4Vh8ksKx+CSFY/FJCsfikxSOxScpHItPUjgWn6RwLD5J4fwPhNZhI6PAgF0AAAAASUVORK5CYII=" id="image9181434993" transform="scale(1 -1) translate(0 -228.96)" x="7.2" y="-49.68" width="228.96" height="228.96"/>
+   </g>
+   <g id="text_1">
+    <!-- (1) RGB Frequency Spectrum -->
+    <g transform="translate(43.498761 31.798728) scale(0.12 -0.12)">
+     <defs>
+      <path id="SimHei-28" d="M 2975 -200 
+L 2700 -475 
+Q 2075 125 1762 775 
+Q 1450 1425 1450 2250 
+Q 1450 3075 1762 3725 
+Q 2075 4375 2700 5000 
+L 2975 4725 
+Q 2400 4175 2112 3587 
+Q 1825 3000 1825 2250 
+Q 1825 1500 2112 912 
+Q 2400 325 2975 -200 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-31" d="M 1400 3600 
+Q 1075 3275 575 2975 
+L 575 3450 
+Q 1200 3875 1600 4450 
+L 1900 4450 
+L 1900 150 
+L 1400 150 
+L 1400 3600 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-29" d="M 1675 2250 
+Q 1675 1425 1362 775 
+Q 1050 125 425 -475 
+L 150 -200 
+Q 725 325 1012 912 
+Q 1300 1500 1300 2250 
+Q 1300 3000 1012 3587 
+Q 725 4175 150 4725 
+L 425 5000 
+Q 1050 4375 1362 3725 
+Q 1675 3075 1675 2250 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-20" transform="scale(0.015625)"/>
+      <path id="SimHei-52" d="M 3000 125 
+L 2400 125 
+L 1500 1975 
+L 850 1975 
+L 850 125 
+L 275 125 
+L 275 4400 
+L 1525 4400 
+Q 2125 4400 2500 4112 
+Q 2875 3825 2875 3175 
+Q 2875 2675 2625 2400 
+Q 2375 2125 2050 2050 
+L 3000 125 
+z
+M 2300 3175 
+Q 2300 3525 2087 3725 
+Q 1875 3925 1400 3925 
+L 850 3925 
+L 850 2450 
+L 1550 2450 
+Q 1850 2450 2075 2612 
+Q 2300 2775 2300 3175 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-47" d="M 2850 75 
+L 2425 75 
+L 2350 425 
+Q 2250 275 2037 175 
+Q 1825 75 1575 75 
+Q 1050 75 637 562 
+Q 225 1050 225 2125 
+Q 225 3300 600 3875 
+Q 975 4450 1625 4450 
+Q 2200 4450 2525 4025 
+Q 2850 3600 2850 2925 
+L 2300 2925 
+Q 2300 3450 2125 3712 
+Q 1950 3975 1625 3975 
+Q 1225 3975 1025 3562 
+Q 825 3150 825 2175 
+Q 825 1250 1075 900 
+Q 1325 550 1650 550 
+Q 1975 550 2162 787 
+Q 2350 1025 2350 1525 
+L 2350 1800 
+L 1575 1800 
+L 1575 2275 
+L 2850 2275 
+L 2850 75 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-42" d="M 2950 1400 
+Q 2950 675 2550 400 
+Q 2150 125 1525 125 
+L 275 125 
+L 275 4400 
+L 1575 4400 
+Q 2200 4400 2512 4075 
+Q 2825 3750 2825 3300 
+Q 2825 2850 2612 2637 
+Q 2400 2425 2175 2350 
+Q 2475 2275 2712 2037 
+Q 2950 1800 2950 1400 
+z
+M 2250 3300 
+Q 2250 3625 2062 3775 
+Q 1875 3925 1600 3925 
+L 850 3925 
+L 850 2600 
+L 1575 2600 
+Q 1850 2600 2050 2762 
+Q 2250 2925 2250 3300 
+z
+M 2350 1400 
+Q 2350 1800 2087 1962 
+Q 1825 2125 1500 2125 
+L 850 2125 
+L 850 600 
+L 1425 600 
+Q 1875 600 2112 775 
+Q 2350 950 2350 1400 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-46" d="M 2925 3925 
+L 875 3925 
+L 875 2525 
+L 2425 2525 
+L 2425 2050 
+L 875 2050 
+L 875 125 
+L 300 125 
+L 300 4400 
+L 2925 4400 
+L 2925 3925 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-72" d="M 2500 2425 
+Q 2025 2500 1700 2287 
+Q 1375 2075 1150 1550 
+L 1150 125 
+L 650 125 
+L 650 2925 
+L 1150 2925 
+L 1150 2200 
+Q 1375 2600 1712 2787 
+Q 2050 2975 2500 2975 
+L 2500 2425 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-65" d="M 2850 1075 
+Q 2800 625 2450 350 
+Q 2100 75 1625 75 
+Q 1025 75 637 462 
+Q 250 850 250 1525 
+Q 250 2200 637 2587 
+Q 1025 2975 1625 2975 
+Q 2150 2975 2487 2637 
+Q 2825 2300 2825 1525 
+L 800 1525 
+Q 800 975 1037 750 
+Q 1275 525 1625 525 
+Q 1900 525 2075 662 
+Q 2250 800 2300 1075 
+L 2850 1075 
+z
+M 2250 1925 
+Q 2200 2275 2025 2412 
+Q 1850 2550 1575 2550 
+Q 1325 2550 1125 2412 
+Q 925 2275 825 1925 
+L 2250 1925 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-71" d="M 2750 -800 
+L 2250 -800 
+L 2250 500 
+Q 2100 275 1900 162 
+Q 1700 50 1425 50 
+Q 925 50 575 425 
+Q 225 800 225 1525 
+Q 225 2250 575 2612 
+Q 925 2975 1425 2975 
+Q 1700 2975 1900 2875 
+Q 2100 2775 2250 2550 
+L 2250 2925 
+L 2750 2925 
+L 2750 -800 
+z
+M 2250 1525 
+Q 2250 2000 2037 2262 
+Q 1825 2525 1525 2525 
+Q 1150 2525 962 2262 
+Q 775 2000 775 1525 
+Q 775 1050 962 775 
+Q 1150 500 1525 500 
+Q 1825 500 2037 775 
+Q 2250 1050 2250 1525 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-75" d="M 2800 125 
+L 2300 125 
+L 2300 650 
+Q 2100 375 1862 225 
+Q 1625 75 1250 75 
+Q 800 75 575 325 
+Q 350 575 350 950 
+L 350 2925 
+L 850 2925 
+L 850 1125 
+Q 850 825 1000 650 
+Q 1150 475 1400 475 
+Q 1725 475 2012 812 
+Q 2300 1150 2300 1650 
+L 2300 2925 
+L 2800 2925 
+L 2800 125 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-6e" d="M 2800 125 
+L 2300 125 
+L 2300 1925 
+Q 2300 2225 2150 2400 
+Q 2000 2575 1750 2575 
+Q 1425 2575 1137 2237 
+Q 850 1900 850 1400 
+L 850 125 
+L 350 125 
+L 350 2925 
+L 850 2925 
+L 850 2400 
+Q 1050 2675 1287 2825 
+Q 1525 2975 1900 2975 
+Q 2350 2975 2575 2725 
+Q 2800 2475 2800 2100 
+L 2800 125 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-63" d="M 2850 1250 
+Q 2850 725 2487 400 
+Q 2125 75 1575 75 
+Q 1025 75 625 462 
+Q 225 850 225 1525 
+Q 225 2200 625 2587 
+Q 1025 2975 1575 2975 
+Q 2125 2975 2450 2687 
+Q 2775 2400 2775 2000 
+L 2225 2000 
+Q 2200 2300 2012 2412 
+Q 1825 2525 1575 2525 
+Q 1275 2525 1025 2287 
+Q 775 2050 775 1525 
+Q 775 1000 1025 762 
+Q 1275 525 1575 525 
+Q 1900 525 2100 700 
+Q 2300 875 2300 1250 
+L 2850 1250 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-79" d="M 2900 2925 
+L 1750 -100 
+Q 1650 -450 1450 -625 
+Q 1250 -800 950 -800 
+Q 825 -800 712 -787 
+Q 600 -775 500 -725 
+L 500 -225 
+Q 600 -275 700 -300 
+Q 800 -325 875 -325 
+Q 1075 -325 1150 -262 
+Q 1225 -200 1300 25 
+L 200 2925 
+L 750 2925 
+L 1550 725 
+L 1575 725 
+L 2350 2925 
+L 2900 2925 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-53" d="M 2900 1325 
+Q 2900 750 2537 412 
+Q 2175 75 1550 75 
+Q 925 75 575 425 
+Q 225 775 225 1300 
+L 225 1475 
+L 800 1475 
+L 800 1325 
+Q 800 950 1025 750 
+Q 1250 550 1550 550 
+Q 1950 550 2137 762 
+Q 2325 975 2325 1275 
+Q 2325 1525 2100 1737 
+Q 1875 1950 1450 2125 
+Q 850 2350 587 2625 
+Q 325 2900 325 3275 
+Q 325 3800 687 4125 
+Q 1050 4450 1550 4450 
+Q 2200 4450 2487 4062 
+Q 2775 3675 2775 3225 
+L 2200 3225 
+Q 2225 3500 2050 3725 
+Q 1875 3950 1550 3950 
+Q 1250 3950 1075 3787 
+Q 900 3625 900 3350 
+Q 900 3125 1037 2962 
+Q 1175 2800 1750 2575 
+Q 2300 2350 2600 2037 
+Q 2900 1725 2900 1325 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-70" d="M 2825 1525 
+Q 2825 800 2475 425 
+Q 2125 50 1625 50 
+Q 1350 50 1150 162 
+Q 950 275 800 500 
+L 800 -800 
+L 300 -800 
+L 300 2925 
+L 800 2925 
+L 800 2550 
+Q 950 2775 1150 2875 
+Q 1350 2975 1625 2975 
+Q 2125 2975 2475 2612 
+Q 2825 2250 2825 1525 
+z
+M 2275 1525 
+Q 2275 2000 2087 2262 
+Q 1900 2525 1525 2525 
+Q 1225 2525 1012 2262 
+Q 800 2000 800 1525 
+Q 800 1050 1012 775 
+Q 1225 500 1525 500 
+Q 1900 500 2087 775 
+Q 2275 1050 2275 1525 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-74" d="M 2750 200 
+Q 2625 150 2462 112 
+Q 2300 75 2025 75 
+Q 1575 75 1300 325 
+Q 1025 575 1025 1025 
+L 1025 2525 
+L 175 2525 
+L 175 2925 
+L 1025 2925 
+L 1025 3900 
+L 1525 3900 
+L 1525 2925 
+L 2550 2925 
+L 2550 2525 
+L 1525 2525 
+L 1525 1000 
+Q 1525 800 1625 662 
+Q 1725 525 2000 525 
+Q 2275 525 2450 575 
+Q 2625 625 2750 700 
+L 2750 200 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-6d" d="M 3050 125 
+L 2550 125 
+L 2550 2150 
+Q 2550 2300 2500 2400 
+Q 2450 2500 2300 2500 
+Q 2125 2500 1975 2312 
+Q 1825 2125 1825 1825 
+L 1825 125 
+L 1325 125 
+L 1325 2150 
+Q 1325 2300 1275 2400 
+Q 1225 2500 1075 2500 
+Q 900 2500 750 2312 
+Q 600 2125 600 1825 
+L 600 125 
+L 100 125 
+L 100 2925 
+L 600 2925 
+L 600 2550 
+Q 725 2750 900 2862 
+Q 1075 2975 1275 2975 
+Q 1475 2975 1612 2862 
+Q 1750 2750 1800 2550 
+Q 1925 2750 2087 2862 
+Q 2250 2975 2450 2975 
+Q 2750 2975 2900 2812 
+Q 3050 2650 3050 2350 
+L 3050 125 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#SimHei-28"/>
+     <use xlink:href="#SimHei-31" transform="translate(50 0)"/>
+     <use xlink:href="#SimHei-29" transform="translate(100 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(150 0)"/>
+     <use xlink:href="#SimHei-52" transform="translate(200 0)"/>
+     <use xlink:href="#SimHei-47" transform="translate(250 0)"/>
+     <use xlink:href="#SimHei-42" transform="translate(300 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(350 0)"/>
+     <use xlink:href="#SimHei-46" transform="translate(400 0)"/>
+     <use xlink:href="#SimHei-72" transform="translate(450 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(500 0)"/>
+     <use xlink:href="#SimHei-71" transform="translate(550 0)"/>
+     <use xlink:href="#SimHei-75" transform="translate(600 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(650 0)"/>
+     <use xlink:href="#SimHei-6e" transform="translate(700 0)"/>
+     <use xlink:href="#SimHei-63" transform="translate(750 0)"/>
+     <use xlink:href="#SimHei-79" transform="translate(800 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(850 0)"/>
+     <use xlink:href="#SimHei-53" transform="translate(900 0)"/>
+     <use xlink:href="#SimHei-70" transform="translate(950 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(1000 0)"/>
+     <use xlink:href="#SimHei-63" transform="translate(1050 0)"/>
+     <use xlink:href="#SimHei-74" transform="translate(1100 0)"/>
+     <use xlink:href="#SimHei-72" transform="translate(1150 0)"/>
+     <use xlink:href="#SimHei-75" transform="translate(1200 0)"/>
+     <use xlink:href="#SimHei-6d" transform="translate(1250 0)"/>
+    </g>
+    <!-- [Demo] -->
+    <g transform="translate(103.498761 44.042478) scale(0.12 -0.12)">
+     <defs>
+      <path id="SimHei-5b" d="M 2825 -525 
+L 1250 -525 
+L 1250 5050 
+L 2825 5050 
+L 2825 4650 
+L 1675 4650 
+L 1675 -125 
+L 2825 -125 
+L 2825 -525 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-44" d="M 2925 2250 
+Q 2925 1100 2437 612 
+Q 1950 125 1125 125 
+L 275 125 
+L 275 4400 
+L 1125 4400 
+Q 2050 4400 2487 3900 
+Q 2925 3400 2925 2250 
+z
+M 2325 2250 
+Q 2325 3175 2025 3550 
+Q 1725 3925 1125 3925 
+L 850 3925 
+L 850 600 
+L 1125 600 
+Q 1725 600 2025 962 
+Q 2325 1325 2325 2250 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-6f" d="M 2925 1525 
+Q 2925 875 2525 475 
+Q 2125 75 1575 75 
+Q 1025 75 625 475 
+Q 225 875 225 1525 
+Q 225 2175 625 2575 
+Q 1025 2975 1575 2975 
+Q 2125 2975 2525 2575 
+Q 2925 2175 2925 1525 
+z
+M 2375 1525 
+Q 2375 2025 2125 2275 
+Q 1875 2525 1575 2525 
+Q 1275 2525 1025 2275 
+Q 775 2025 775 1525 
+Q 775 1025 1025 775 
+Q 1275 525 1575 525 
+Q 1875 525 2125 775 
+Q 2375 1025 2375 1525 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-5d" d="M 1875 -525 
+L 300 -525 
+L 300 -125 
+L 1450 -125 
+L 1450 4650 
+L 300 4650 
+L 300 5050 
+L 1875 5050 
+L 1875 -525 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#SimHei-5b"/>
+     <use xlink:href="#SimHei-44" transform="translate(50 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(100 0)"/>
+     <use xlink:href="#SimHei-6d" transform="translate(150 0)"/>
+     <use xlink:href="#SimHei-6f" transform="translate(200 0)"/>
+     <use xlink:href="#SimHei-5d" transform="translate(250 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g clip-path="url(#p1bfd11c3a8)">
+    <image xlink:href="data:image/png;base64,
+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" id="imageb3b44cc4f2" transform="scale(1 -1) translate(0 -228.96)" x="290.261261" y="-49.68" width="228.96" height="228.96"/>
+   </g>
+   <g id="text_2">
+    <!-- (2) IR Frequency Spectrum -->
+    <g transform="translate(329.560022 31.798728) scale(0.12 -0.12)">
+     <defs>
+      <path id="SimHei-32" d="M 300 250 
+Q 325 625 650 925 
+Q 975 1225 1475 1862 
+Q 1975 2500 2125 2850 
+Q 2275 3200 2237 3450 
+Q 2200 3700 2000 3862 
+Q 1800 4025 1537 4000 
+Q 1275 3975 1037 3800 
+Q 800 3625 675 3275 
+L 200 3350 
+Q 400 3925 712 4187 
+Q 1025 4450 1450 4475 
+Q 1700 4500 1900 4462 
+Q 2100 4425 2312 4287 
+Q 2525 4150 2662 3875 
+Q 2800 3600 2762 3212 
+Q 2725 2825 2375 2287 
+Q 2025 1750 1025 600 
+L 2825 600 
+L 2825 150 
+L 300 150 
+L 300 250 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-49" d="M 1850 125 
+L 1275 125 
+L 1275 4400 
+L 1850 4400 
+L 1850 125 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#SimHei-28"/>
+     <use xlink:href="#SimHei-32" transform="translate(50 0)"/>
+     <use xlink:href="#SimHei-29" transform="translate(100 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(150 0)"/>
+     <use xlink:href="#SimHei-49" transform="translate(200 0)"/>
+     <use xlink:href="#SimHei-52" transform="translate(250 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(300 0)"/>
+     <use xlink:href="#SimHei-46" transform="translate(350 0)"/>
+     <use xlink:href="#SimHei-72" transform="translate(400 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(450 0)"/>
+     <use xlink:href="#SimHei-71" transform="translate(500 0)"/>
+     <use xlink:href="#SimHei-75" transform="translate(550 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(600 0)"/>
+     <use xlink:href="#SimHei-6e" transform="translate(650 0)"/>
+     <use xlink:href="#SimHei-63" transform="translate(700 0)"/>
+     <use xlink:href="#SimHei-79" transform="translate(750 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(800 0)"/>
+     <use xlink:href="#SimHei-53" transform="translate(850 0)"/>
+     <use xlink:href="#SimHei-70" transform="translate(900 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(950 0)"/>
+     <use xlink:href="#SimHei-63" transform="translate(1000 0)"/>
+     <use xlink:href="#SimHei-74" transform="translate(1050 0)"/>
+     <use xlink:href="#SimHei-72" transform="translate(1100 0)"/>
+     <use xlink:href="#SimHei-75" transform="translate(1150 0)"/>
+     <use xlink:href="#SimHei-6d" transform="translate(1200 0)"/>
+    </g>
+    <!-- [Demo] -->
+    <g transform="translate(386.560022 44.042478) scale(0.12 -0.12)">
+     <use xlink:href="#SimHei-5b"/>
+     <use xlink:href="#SimHei-44" transform="translate(50 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(100 0)"/>
+     <use xlink:href="#SimHei-6d" transform="translate(150 0)"/>
+     <use xlink:href="#SimHei-6f" transform="translate(200 0)"/>
+     <use xlink:href="#SimHei-5d" transform="translate(250 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g clip-path="url(#p5264cd02ce)">
+    <image xlink:href="data:image/png;base64,
+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" id="imagee6ff154a0b" transform="scale(1 -1) translate(0 -228.96)" x="573.322522" y="-49.68" width="228.96" height="228.96"/>
+   </g>
+   <g id="text_3">
+    <!-- (3) Fused Frequency Spectrum -->
+    <g transform="translate(603.621283 31.798728) scale(0.12 -0.12)">
+     <defs>
+      <path id="SimHei-33" d="M 250 1225 
+L 700 1300 
+Q 800 975 1025 762 
+Q 1250 550 1587 562 
+Q 1925 575 2125 837 
+Q 2325 1100 2300 1437 
+Q 2275 1775 2037 1962 
+Q 1800 2150 1275 2225 
+L 1275 2550 
+Q 1800 2600 2037 2825 
+Q 2275 3050 2250 3412 
+Q 2225 3775 1925 3937 
+Q 1625 4100 1287 3975 
+Q 950 3850 750 3275 
+L 300 3350 
+Q 450 3800 712 4100 
+Q 975 4400 1425 4450 
+Q 1875 4500 2212 4337 
+Q 2550 4175 2687 3837 
+Q 2825 3500 2725 3100 
+Q 2625 2700 2150 2400 
+Q 2500 2250 2687 1950 
+Q 2875 1650 2812 1162 
+Q 2750 675 2375 375 
+Q 2000 75 1525 87 
+Q 1050 100 700 387 
+Q 350 675 250 1225 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-73" d="M 2750 900 
+Q 2750 500 2437 287 
+Q 2125 75 1650 75 
+Q 1050 75 725 312 
+Q 400 550 400 1000 
+L 900 1000 
+Q 900 700 1112 600 
+Q 1325 500 1625 500 
+Q 1925 500 2075 612 
+Q 2225 725 2225 900 
+Q 2225 1025 2100 1150 
+Q 1975 1275 1475 1350 
+Q 900 1425 687 1637 
+Q 475 1850 475 2200 
+Q 475 2500 762 2737 
+Q 1050 2975 1600 2975 
+Q 2100 2975 2387 2750 
+Q 2675 2525 2675 2150 
+L 2175 2150 
+Q 2175 2375 2012 2462 
+Q 1850 2550 1600 2550 
+Q 1275 2550 1137 2437 
+Q 1000 2325 1000 2175 
+Q 1000 2000 1125 1900 
+Q 1250 1800 1650 1750 
+Q 2300 1650 2525 1437 
+Q 2750 1225 2750 900 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-64" d="M 2750 125 
+L 2250 125 
+L 2250 500 
+Q 2100 275 1900 175 
+Q 1700 75 1425 75 
+Q 925 75 575 437 
+Q 225 800 225 1525 
+Q 225 2250 575 2625 
+Q 925 3000 1425 3000 
+Q 1700 3000 1900 2887 
+Q 2100 2775 2250 2550 
+L 2250 4400 
+L 2750 4400 
+L 2750 125 
+z
+M 2250 1525 
+Q 2250 2000 2037 2275 
+Q 1825 2550 1525 2550 
+Q 1150 2550 962 2275 
+Q 775 2000 775 1525 
+Q 775 1050 962 787 
+Q 1150 525 1525 525 
+Q 1825 525 2037 787 
+Q 2250 1050 2250 1525 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#SimHei-28"/>
+     <use xlink:href="#SimHei-33" transform="translate(50 0)"/>
+     <use xlink:href="#SimHei-29" transform="translate(100 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(150 0)"/>
+     <use xlink:href="#SimHei-46" transform="translate(200 0)"/>
+     <use xlink:href="#SimHei-75" transform="translate(250 0)"/>
+     <use xlink:href="#SimHei-73" transform="translate(300 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(350 0)"/>
+     <use xlink:href="#SimHei-64" transform="translate(400 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(450 0)"/>
+     <use xlink:href="#SimHei-46" transform="translate(500 0)"/>
+     <use xlink:href="#SimHei-72" transform="translate(550 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(600 0)"/>
+     <use xlink:href="#SimHei-71" transform="translate(650 0)"/>
+     <use xlink:href="#SimHei-75" transform="translate(700 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(750 0)"/>
+     <use xlink:href="#SimHei-6e" transform="translate(800 0)"/>
+     <use xlink:href="#SimHei-63" transform="translate(850 0)"/>
+     <use xlink:href="#SimHei-79" transform="translate(900 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(950 0)"/>
+     <use xlink:href="#SimHei-53" transform="translate(1000 0)"/>
+     <use xlink:href="#SimHei-70" transform="translate(1050 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(1100 0)"/>
+     <use xlink:href="#SimHei-63" transform="translate(1150 0)"/>
+     <use xlink:href="#SimHei-74" transform="translate(1200 0)"/>
+     <use xlink:href="#SimHei-72" transform="translate(1250 0)"/>
+     <use xlink:href="#SimHei-75" transform="translate(1300 0)"/>
+     <use xlink:href="#SimHei-6d" transform="translate(1350 0)"/>
+    </g>
+    <!-- [Demo] -->
+    <g transform="translate(669.621283 44.042478) scale(0.12 -0.12)">
+     <use xlink:href="#SimHei-5b"/>
+     <use xlink:href="#SimHei-44" transform="translate(50 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(100 0)"/>
+     <use xlink:href="#SimHei-6d" transform="translate(150 0)"/>
+     <use xlink:href="#SimHei-6f" transform="translate(200 0)"/>
+     <use xlink:href="#SimHei-5d" transform="translate(250 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g clip-path="url(#p2740900a3d)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAS8AAAEvCAYAAAAU3kfYAAAYxklEQVR4nO3c6XMWhLXH8ROyEkI2khDMyo5h3xQBN1TcSq2illaLg+Peaautcx1tp9rrHVp7vVervU47WrdqFYtaNxSqooBWKiJLAoRINpaEkISEhBASEu6f8Dsv+uKeO9/P69+cJzzLj+fFeU5CY1vXaRNuX7VDRczM7IUbpsvM3rZe16wPv2mVmdSkIa5Z80pzZCYrNck1q6d/QGby0pNds1KTEmSm8vBx16zxI9JlZuC0fKnNzOzj2naZWbO9SWaunVPseryrz8xz5TyWv7xdZh65qsI1qyBdvyferm5zzfI89/0DvtfnojG5MlM83PcevO6Fr2Xm8aVTXLPer9Gf2RN9+vNjZlaQkSozvk8/APwfQ3kBCInyAhAS5QUgJMoLQEiUF4CQKC8AIVFeAEJKeHzTPrkZt2LGKNewNTV6uXFaYYZr1qBjX+/kqUHXrK1Nx2Tm7OJs16w3q5plZtHYEa5ZUwr0YunK9bWuWTfPLZWZpq6TrlnbmvXzdfFYvVhalulblKxu14vLK9fudc1aPKVQZvoHfe+bNMcS9KXjfK91fYd+7j92LGabmf34nBKZOdLjWwb18L5vHlmnX6NXb5rpmvVJfafM8M0LQEiUF4CQKC8AIVFeAEKivACERHkBCInyAhAS5QUgJMoLQEgJd7z2tdxl/+9vTXQN+90XB2Rmw54jrln3XjxeZkqz9KlYM7PVVYdlpqnjhGvWgjF6o/r5zxtcs15drreN19d3uGZVNnfJzL6WbtesX106QWYe21gnM2eV6XPFZmYlWWkyMzZHZ8zMHni/WmYevkz/+8zMjvbqLfUh+pK3mZk9un6fzEwvzXbNamjVp8HvOKfMNevT+qMyk56c6Jr1j1p9Erutu88169nr9elpvnkBCInyAhAS5QUgJMoLQEiUF4CQKC8AIVFeAEKivACElJSboRc9j/f7zuZOzNcnnj0ZM7OMVL0Yd987u12zRmXrBceyvGGuWbXtPTLzk0VjXbNueW2nzMwd41v0/Ffq7vO93sr8kixXru3EKZlp6dEZM7OD7XrZ+FfralyzxhcOl5k+5ynyiyYVyMxft+glbzOzFfP1Amq78/m6Yrxeun58U71rVn6m/pzdOFufsDbznYHnmxeAkCgvACFRXgBCorwAhER5AQiJ8gIQEuUFICTKC0BIlBeAkJJSknR/LX95u2vYk9dOlZn3a1pds3Y0HZOZERkprlnXziiSmbz0ZNes047N3/eqW1yzPJv/y6YWumY1Oc7rVh7odM16erM+Y111QL8+zzg3xi+dkC8zNW369LGZ2ZKZZ8jM96eOdM36sFafSPb84sLM7ILybJnZeUg/p2Zmx07q7flnnFvxL984Q2ZuOavUNeuzxg6ZyUzznZR+crN+7/DNC0BIlBeAkCgvACFRXgBCorwAhER5AQiJ8gIQEuUFIKSkqyfrJciDzkW8REcV3jDNtyDoseKVHa5cZ2+/zCQm+B5z9fZDMuM9DXzngtEy8+rOZtesNseS6oLxea5Z15ypl0bvX1MtM1McZ5TNzHKH6gXh8px016w5o/Q5b+9Z8+2OpdFfXFDumrWlSS/ZzinNds26ZLTOvbJ5v2vWEce56H7PTWYzO6tYn/1O9ZSEmf1kXrHM8M0LQEiUF4CQKC8AIVFeAEKivACERHkBCInyAhAS5QUgJMoLQEhJOw93ydDt88tdw96t1ieeLxs3wjUrxbGJ6zlhbWa2oCRTZj7b7zvBe/e5eis+Pz3JNcvDewb6wbV7Zeam2Xpr2czsrtWVMrN0tue0tu9M95ZD+jx1RorvOf31p/Uyc+NM/bebmV0zRT/3t66ucs3q7tWb7Blpvn+j53md5tzWr27Tv57pH/D9ImF6YYbMfFKnT2ubmS0anSszfPMCEBLlBSAkygtASJQXgJAoLwAhUV4AQqK8AIREeQEIKSkjJVGGKvLSXMMq8vRS367WXteslet2y8xvv13hmvX67iMyc/EY3/Jsd59e2Pv1R3tcs8ry9Mni2+f6FiqXn1UqMyWZ+tyymdltjkXcWsdp8MVjfaebC4frpcujJ/SSp5lZTbNeuv7Rat/58DdWzJYZz2toZnbVZH3+vH/Ad2557V79fq5t6XbNqjqgF4Svn+tbbm5znJSuavItg893LNnyzQtASJQXgJAoLwAhUV4AQqK8AIREeQEIifICEBLlBSAkygtASEnvVTbL0OR83xbxPW/qk7hPXjvFNavvlN5kv33Vdtesix3bzXe95tu6Xj6/TGbuvXCsa9aBzpMy8+7eNtesqyblycwrlS2uWau/PCAzTy+bLjOPbqhzPd6B9hMyc6JvwDVrYFBvqd9x/hjXrOue3yozc8boc8VmZkWOXxFsP3zcNSvVcf585ZWTXLPW7WuXmfYT/a5ZhRn6FxwzirNds551vAf55gUgJMoLQEiUF4CQKC8AIVFeAEKivACERHkBCInyAhBSkmehsstx+tjMbKjjpHRPv2/WnY5Fwr98ud81y+O1m2a6cscdf39Omn4ezMzW1+kFwTE5vlPKJ0/p5cy3vz7kmnXrefoMdN+Afh4WOk9r78vWJ6VXzBzlmtXcrU8RP725wTXrpxePk5nOXt956upWvYi7sCTTNWv6SL00vuuIfk7NzC4fr1+jEUOTXLPuW1MtM7UtvkXcaaVZMsM3LwAhUV4AQqK8AIREeQEIifICEBLlBSAkygtASJQXgJAoLwAhJSx7/p9yNbs4d6hrWOIQ3YUXjvNtXWek6K3erDTf5m/RcH2etv2E78zw6dN6k31Pq2+7+Z/7O2RmXlmOa9aC4uEyc+PLvrPZiUMSZGZ8YYbMfN3Q4Xq8287VG/1//qLRNevFG/R56pr2XtesEUP1+ybR+d9/miP4zt5W16y9h7tkZlqR3lA3M7totH5/PfJJrWtWxRn6FwLTR/p+RbD5YIfM8M0LQEiUF4CQKC8AIVFeAEKivACERHkBCInyAhAS5QUgpIR3qprk1qV3GfTw8T6Z6T7pO5v73cn5MrOh8Zhr1u8dS3Y3Lyh3zao7qhdQF4/Lc816aetBV85jTmm2zDy7qd4167nv60XPjGT9/97D6+tcj9d3Si8I33eBPgtuZtbRq2cVO5aWzcwajun384tf+V7Dsx3LxuXZvmXw/kF9gntqvm/Wvg79b9xQf9Q1691t+sy4d+H9sSWTZIZvXgBCorwAhER5AQiJ8gIQEuUFICTKC0BIlBeAkCgvACFRXgBCSvjh6m1yw77vlN7oNTO7/6JxMvOe89TtmNx0mVn11QHXrIcunSAzb+5ucc3KTtPb2fNKfCd4cx2/XFi9y/d3tTl+3XDN5ELXrI0NeqN6eqE+O72xvt31eMum6b/rF2uqXbMeuGS8zHT3+U5+T8xNk5m+QX0W3Mxsk+PXIBX5w1yzHt+gfzHy6JUTXbN2tpyQmfSURNessdkpMtPd7+uSvW367+KbF4CQKC8AIVFeAEKivACERHkBCInyAhAS5QUgJMoLQEhJy+eWyNBD7+1xDctK1ctsfQO+JbVBx/LfnQtGu2at29cmM95F3O9N0eep2x2niM3Mnv9an80d6lwQ3PzNv+7fuKOxQ2aO9+lz3t8+s8D1eMMcJ6VHZeuFUTOzT+r0gu2N00a6ZtW098rMQ2t8n41bFpbLzMFjJ12zvjNtlMy09PjOrQ9xfH3pdZzpNjM75fjMPvF5o2vWZRP154xvXgBCorwAhER5AQiJ8gIQEuUFICTKC0BIlBeAkCgvACFRXgBCSqpt1+dWbz3Xt8neN6A3bFucW8RXTtAbtntaj7tmnVeWKzM5ab5N9hd3HJaZZZN9m+U9jnPEV070zbptlt66/mBfh2vWfeeVy8zBrn6ZeWu3fq7MzO6cWyQz3b2+jfEVM/T2vOdvNzN7d48+wb1ySYVr1qgMffK7oVOf8jYzy3D86uK36/e5Zt3l+JXKi1/td81q6tC/SLh5Xplr1lMb62SGb14AQqK8AIREeQEIifICEBLlBSAkygtASJQXgJAoLwAhJdzztx1ys7Qg03eC966zimVm4LReZDUz23VEL8/mDNWLf2ZmqYm6oz0LtmZmT29ukJmG1h7XrLsvHCsznmU9M7MHLpkgM/uP6SVCM7OJI9JlZq3j7PRbWw+6Hu+7Z+lT5NMLh7tmbT7QKTNLK/QCtJnZz97eLTPXzdILtmZm6cl6sbS527fA3es4532t89/43NdNMvNtx0lmM7PVVXop+UC777ORkqQ/s3zzAhAS5QUgJMoLQEiUF4CQKC8AIVFeAEKivACERHkBCInyAhBSQk9Pj1wtX/Knr1zDlsw8Q2Zqmrtcs+5aUC4zZZkprlmPftYoM80deqPfzKwwe6jM3D5X/9LAzOypzfq8bp9jm9rMrDhH/11Nnb4N+3bHpvesshyZWXqmbzP78/3HZGZBaaZrVmWLb4PbY0qB/qVBfYfvdHNxZrLM/MdHvtPNnl9wPPe9aa5Zy1/eLjM3zfedbp6UN0xmiobr58HMbEOD/qUE37wAhER5AQiJ8gIQEuUFICTKC0BIlBeAkCgvACFRXgBCSlq9u1WGSh1ngc3M1mzTJ2V/cflE16ynPquXmax035LqpJEZMrOltt01675F+nSz4+q0mfkWY5fN8i28vrr1gMz09A24Zv3P1RUy8+O39InkcsdCr5lZ/6A+wf1aVYtr1rpKfYr4RecC56eNenl2z5Fu16wTjue+ONf3ObvfcT68qbvfNeuhKybJzMuO95aZ2eR8/Tnr6PW9B5/ZVC8zfPMCEBLlBSAkygtASJQXgJAoLwAhUV4AQqK8AIREeQEIKanXcanzl4vHu4YdPKavSk51XKc0M+uaXCgz3SdPuWbNPkNf4XzFcdXUzOz+d/fIzJTiLNesxRUjZealLb6/a6Vj+fe/Nta5ZvUO6KXRgsxUmSnOTHM93m8+qpGZzh7f0uVT106RmU2Oy61mZr/76BuZ+ZFjYdTM7I3th2TmvPF5rlmNx/Sl2+EpSa5ZI9J1bqhzVmev/jzucVzpNTO7/dzRMsM3LwAhUV4AQqK8AIREeQEIifICEBLlBSAkygtASJQXgJAoLwAhJSz+/Sa5Tv3YUr21bGZ231u7ZObnl/rOQHukJvm6t6btuMwsLPVtxW9o6JSZIQmuUbb9kN70bnduJF83o0hmCjJ8Z7NTEvU/IM1x6zor1ff61HboX2akJ/tm3fNGpcwsP6fMNWti3jCZqWzpcs26ZEyuzOxs0e9TM7Paoz0yUzTc9+uGnKHJMvPge/rkt5lZUY4++73Q+SuC9OREmeGbF4CQKC8AIVFeAEKivACERHkBCInyAhAS5QUgJMoLQEgJW/cflUuq5dm+5cbKFr0851mKMzNb902rzGSn+WZNGZkhM/npvll3rNohM/de4jubvfOwXnD8/lR9DtvMbMshPeuCct8i7kd1HTLzxw36pPQvL5/kerwpBXq50auy5YTMlGT53s/ZqXpRcuWn9a5Z5zmWVEuyfIulD6/dKzNPXF3hmnXzK/r9vHKJb9YjjnPeiyYVuGZtbTwqM3zzAhAS5QUgJMoLQEiUF4CQKC8AIVFeAEKivACERHkBCInyAhCSa8P+7d2HXcNGDNOby1UH9RllM7MxBXorfvYZvo3xnY5TvYvH+s7TDpyWT5e9sGW/a9biiXrb+H3nc993avBfkjEz6+jpl5k7Fo6WmXzH+8HMbFuzPoftOclsZlZ5uFtmWpyntVMcZ8YXluW4ZhUN189Fdav+dYCZWUV+uszc+47vdPPPLhwnMyOHJblmZTl+kfDCdt/72XFlnG9eAGKivACERHkBCInyAhAS5QUgJMoLQEiUF4CQKC8AISV8sKdZbl16TzeXZaXKzG7nIt7HjjPQ9ywodc1y7JVaXYdvcfHhD6pl5sIK36nbgUH9h51frs8Hm/lOSn93cr5r1os79CLhR7taZOaSySNdj7epRr/WEwqHu2bdMqdIZu7+2y7XrKeWTpaZv+/T54rNzM4ry5aZrFTfd4nNh47LTMEw32e2tl1/Ho/26qVlM7OrJupF7xPORen1jlPkfPMCEBLlBSAkygtASJQXgJAoLwAhUV4AQqK8AIREeQEIifICEFLCNc98Ide8f7pIn4o1Mzszb6jMvL77iGvWdybpbd0Dx3ybv42deov4jW2HXLOum6k3uHcf0aeIzczW7myWmZdunOmadbR3QGbaT/ier37H5n9igp7z1MY61+NNL82WmYIM/esNM7OzivVp8D98Xu+a1dDaIzNlefoks5nZf14xQWY8v2wwM/veFP3Lhebjvtd6ZLo+8fz6bv0LCDOzDscm/g+mF7pm7WvXv3jhmxeAkCgvACFRXgBCorwAhER5AQiJ8gIQEuUFICTKC0BICe9UNcmNxPoO3+lmz9Ll1bP0kqeZWX27XhCc7VhINDNr7tYLb9dP9p1uPtJzSma6TuqFUTOzw8f7ZGZhSaZrVk+/Pq/rWWQ1M/vZm5Uy85ur9InkRuf7ZsrIYTLzca3v3PI5JdkyMzTZsWFrZl836WXjy8bqx/NqPq7fW2Zm+Y7FUu+5Zc+i95+/2u+aNbs0R2bSkxNdsyY6ln/55gUgJMoLQEiUF4CQKC8AIVFeAEKivACERHkBCInyAhAS5QUgpKSPa/RZ5n+/xHcGOitNb/6+8HmDa9aYfL113X+Gb/t8mWN7/udra1yzZjm2iJdMHOGaVZaVIjO3r9bb7mZm88bpx6xp7nLNys/UJ5d3HtazvNvUte29MjO3yPdriqYu/WuKdXt9p8gnFGTIzK2rq1yzbjq7VGb2d+rnwcysf1Bvz6cm+r6XHHH8yuOuc8pcs3a2HJeZhaW+zyxnoAH8v0V5AQiJ8gIQEuUFICTKC0BIlBeAkCgvACFRXgBCSrrFsTx36199i5LjC4fLzLQS37Lhw47F2GV/3uaaVd2iz/neMb/cNesPn9fLjOcUsZnZbz7Si7FPXF3hmvWnrw7JzHnj8lyzFo3OlpkOx0npouHJrsdb33BMZhJ8l5utsVOfnl4+23eKfFAeSPedKzczO7tIfzae/YdvgXu4Yxl8svNEev4wvSj90Nq9rlkrr5gkM4nOFzLPceqab14AQqK8AIREeQEIifICEBLlBSAkygtASJQXgJAoLwAhUV4AQkrY1dQp94jX17W7hh3vOyUz40bo885mZuNHpMvMsGRf9+Y7tnXrO/U5XDOzTxzPxYdVh12zcjP0dvOo7KGuWX2n9MZ7ca5+Ts3MLh+vN/EffL9aZjynqc3M8tL187B4rD6/bWa2rVmfIh487VidN7NVWw/KzGUVI12zSrP06/jge7tds176wQyZqTqif2lgZjarUH8eH/u80TWr6kCnzPzqcr2Fb2b22Kf7ZIZvXgBCorwAhER5AQiJ8gIQEuUFICTKC0BIlBeAkCgvACEl1XXoZbZdh/TymZnZkimFMuNZSDQzqz+q/64PdvuWQW87p1xmctISXbO6T+pF3OJc32LpQ45T155zy2ZmGSn672/q7nfNaujolRnPyW/vyd+efv1vbHQuEb+xXZ/DXjJ1lGvWwXb9Hjza63tOzy/PlpkrZvj+ruZu/R7c6vzMTh+pF5dvdp7NfthxEjsl0feeSByic3zzAhAS5QUgJMoLQEiUF4CQKC8AIVFeAEKivACERHkBCInyAhBSQkNrl7yJ+8CaPa5h88bqs7/XnJnvmrWnVW837zuqN3rNzJY6HvOet30neEc4TjefP06fUTYz++OGOpn5t8UTXLN+/YE+y+zd4E5L0v+nfWuC/jc+sEb/TWZmK+aVycz43DTXrFzHLyXeqvadNU9ybINXt3S7Zu0+dExmnvhOhWvWk1/sl5kVs3xb8f/xYY3MDHX8esPMbMEY/fmvdWzhm5ldObFAZvjmBSAkygtASJQXgJAoLwAhUV4AQqK8AIREeQEIifICEFJC1/EeuaTaPygjZmb2z4NdMvP8F42uWVfPOENmUh3LlGZm80syZWZVZYtr1p4mvWx44+wS16y/VTXLzI7GDtesp66fKjNbDunXx8ysIn+YzDz3pV6UnFaU5Xo8zxno6mbf3750mn7f/O6Tfa5Z188plplzivV7y8zsLzv0a91yTJ/fNjNb7nh/Pbmx1jWrq1eflP7lpRNds+5+fafMvHDDDNes3oFBmeGbF4CQKC8AIVFeAEKivACERHkBCInyAhAS5QUgJMoLQEiUF4CQElZtOyDX5y8ek+Ma9qVjg7t/wLetP3NUhsz8cHWla1ZBZqrMTC72bYNPytPb5+nJvrO5Ow/rE8J56cmuWZeO1a/Rx/Wdrlkb97Xqx5ukz/R6t88f/lhvvP9wvj4VbWbW53h/DUv2/Z/ddkJv/q/afsg1a05Jtsx43vNmZg9+sNeV80gcok9dP3DRONesug79C4FH/67PTpuZzSzX72e+eQEIifICEBLlBSAkygtASJQXgJAoLwAhUV4AQqK8AIT0v5zXC9cGSnduAAAAAElFTkSuQmCC" id="image91a585ae71" transform="scale(1 -1) translate(0 -218.16)" x="834.551913" y="-55.085743" width="218.16" height="218.16"/>
+   </g>
+   <g id="text_4">
+    <!-- (4) High-Freq Enhancement -->
+    <g transform="translate(868.456417 37.192985) scale(0.12 -0.12)">
+     <defs>
+      <path id="SimHei-34" d="M 2000 1100 
+L 75 1100 
+L 75 1525 
+L 2100 4450 
+L 2475 4450 
+L 2475 1525 
+L 3075 1525 
+L 3075 1100 
+L 2475 1100 
+L 2475 150 
+L 2000 150 
+L 2000 1100 
+z
+M 2000 1525 
+L 2000 3500 
+L 600 1525 
+L 2000 1525 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-48" d="M 2850 125 
+L 2275 125 
+L 2275 2125 
+L 850 2125 
+L 850 125 
+L 275 125 
+L 275 4400 
+L 850 4400 
+L 850 2600 
+L 2275 2600 
+L 2275 4400 
+L 2850 4400 
+L 2850 125 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-69" d="M 1800 3725 
+L 1300 3725 
+L 1300 4375 
+L 1800 4375 
+L 1800 3725 
+z
+M 1800 125 
+L 1300 125 
+L 1300 2925 
+L 1800 2925 
+L 1800 125 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-67" d="M 2975 2500 
+Q 2800 2550 2637 2562 
+Q 2475 2575 2300 2525 
+Q 2375 2450 2425 2337 
+Q 2475 2225 2475 2000 
+Q 2475 1575 2187 1300 
+Q 1900 1025 1475 1025 
+Q 1375 1025 1212 1062 
+Q 1050 1100 950 1150 
+Q 875 1100 850 1050 
+Q 825 1000 825 925 
+Q 825 800 1000 737 
+Q 1175 675 1625 675 
+Q 2350 675 2612 475 
+Q 2875 275 2875 -25 
+Q 2875 -425 2487 -612 
+Q 2100 -800 1575 -800 
+Q 900 -800 575 -625 
+Q 250 -450 250 -150 
+Q 250 0 375 150 
+Q 500 300 700 400 
+Q 550 475 462 587 
+Q 375 700 375 875 
+Q 375 1025 487 1137 
+Q 600 1250 750 1325 
+Q 625 1450 550 1625 
+Q 475 1800 475 2000 
+Q 475 2425 762 2700 
+Q 1050 2975 1475 2975 
+Q 1700 2975 1862 2912 
+Q 2025 2850 2150 2725 
+Q 2350 2875 2550 2937 
+Q 2750 3000 2975 2975 
+L 2975 2500 
+z
+M 1975 2000 
+Q 1975 2250 1850 2400 
+Q 1725 2550 1475 2550 
+Q 1225 2550 1100 2400 
+Q 975 2250 975 2000 
+Q 975 1750 1100 1600 
+Q 1225 1450 1475 1450 
+Q 1725 1450 1850 1600 
+Q 1975 1750 1975 2000 
+z
+M 2400 -75 
+Q 2400 25 2287 125 
+Q 2175 225 1725 225 
+Q 1625 225 1450 237 
+Q 1275 250 1050 275 
+Q 850 200 775 100 
+Q 700 0 700 -100 
+Q 700 -250 900 -350 
+Q 1100 -450 1600 -450 
+Q 2025 -450 2212 -337 
+Q 2400 -225 2400 -75 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-68" d="M 2800 125 
+L 2300 125 
+L 2300 1925 
+Q 2300 2225 2150 2400 
+Q 2000 2575 1750 2575 
+Q 1425 2575 1137 2237 
+Q 850 1900 850 1400 
+L 850 125 
+L 350 125 
+L 350 4400 
+L 850 4400 
+L 850 2400 
+Q 1050 2675 1287 2825 
+Q 1525 2975 1900 2975 
+Q 2350 2975 2575 2725 
+Q 2800 2475 2800 2100 
+L 2800 125 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-2d" d="M 2975 2125 
+L 125 2125 
+L 125 2525 
+L 2975 2525 
+L 2975 2125 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-45" d="M 2900 125 
+L 350 125 
+L 350 4400 
+L 2775 4400 
+L 2775 3925 
+L 925 3925 
+L 925 2600 
+L 2625 2600 
+L 2625 2125 
+L 925 2125 
+L 925 600 
+L 2900 600 
+L 2900 125 
+z
+" transform="scale(0.015625)"/>
+      <path id="SimHei-61" d="M 2875 125 
+L 2275 125 
+Q 2225 175 2200 262 
+Q 2175 350 2175 475 
+Q 2000 275 1750 175 
+Q 1500 75 1225 75 
+Q 825 75 550 275 
+Q 275 475 275 850 
+Q 275 1225 525 1450 
+Q 775 1675 1300 1750 
+Q 1650 1800 1912 1875 
+Q 2175 1950 2175 2075 
+Q 2175 2225 2062 2375 
+Q 1950 2525 1575 2525 
+Q 1275 2525 1137 2412 
+Q 1000 2300 950 2100 
+L 400 2100 
+Q 450 2500 762 2737 
+Q 1075 2975 1575 2975 
+Q 2125 2975 2400 2725 
+Q 2675 2475 2675 2025 
+L 2675 650 
+Q 2675 500 2725 375 
+Q 2775 250 2875 125 
+z
+M 2175 1050 
+L 2175 1550 
+Q 2025 1500 1887 1462 
+Q 1750 1425 1425 1375 
+Q 1050 1325 937 1200 
+Q 825 1075 825 900 
+Q 825 750 937 637 
+Q 1050 525 1275 525 
+Q 1500 525 1762 650 
+Q 2025 775 2175 1050 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#SimHei-28"/>
+     <use xlink:href="#SimHei-34" transform="translate(50 0)"/>
+     <use xlink:href="#SimHei-29" transform="translate(100 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(150 0)"/>
+     <use xlink:href="#SimHei-48" transform="translate(200 0)"/>
+     <use xlink:href="#SimHei-69" transform="translate(250 0)"/>
+     <use xlink:href="#SimHei-67" transform="translate(300 0)"/>
+     <use xlink:href="#SimHei-68" transform="translate(350 0)"/>
+     <use xlink:href="#SimHei-2d" transform="translate(400 0)"/>
+     <use xlink:href="#SimHei-46" transform="translate(450 0)"/>
+     <use xlink:href="#SimHei-72" transform="translate(500 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(550 0)"/>
+     <use xlink:href="#SimHei-71" transform="translate(600 0)"/>
+     <use xlink:href="#SimHei-20" transform="translate(650 0)"/>
+     <use xlink:href="#SimHei-45" transform="translate(700 0)"/>
+     <use xlink:href="#SimHei-6e" transform="translate(750 0)"/>
+     <use xlink:href="#SimHei-68" transform="translate(800 0)"/>
+     <use xlink:href="#SimHei-61" transform="translate(850 0)"/>
+     <use xlink:href="#SimHei-6e" transform="translate(900 0)"/>
+     <use xlink:href="#SimHei-63" transform="translate(950 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(1000 0)"/>
+     <use xlink:href="#SimHei-6d" transform="translate(1050 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(1100 0)"/>
+     <use xlink:href="#SimHei-6e" transform="translate(1150 0)"/>
+     <use xlink:href="#SimHei-74" transform="translate(1200 0)"/>
+    </g>
+    <!-- [Demo] -->
+    <g transform="translate(925.456417 49.436735) scale(0.12 -0.12)">
+     <use xlink:href="#SimHei-5b"/>
+     <use xlink:href="#SimHei-44" transform="translate(50 0)"/>
+     <use xlink:href="#SimHei-65" transform="translate(100 0)"/>
+     <use xlink:href="#SimHei-6d" transform="translate(150 0)"/>
+     <use xlink:href="#SimHei-6f" transform="translate(200 0)"/>
+     <use xlink:href="#SimHei-5d" transform="translate(250 0)"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_2">
+    <path d="M 1065.973985 278.64 
+L 1077.403861 278.64 
+L 1077.403861 50.042478 
+L 1065.973985 50.042478 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAE9CAYAAADUEzhYAAABvklEQVR4nO2ayw3DMAxD/duj43X/ex13BukBIQgrd0LWMym7afq3fU5LPmv2rLS1NXtePfJ1lcsuYFExWfeVwMph71bOiykwR5MUsKh4EHEH62a0B6i8+swXRz2jZTNgfYCeIW3RVikdNpBJRPaEDmPBkEUSbBUFVpEMVb4wkkLa8MRAwERiIbA+JxGTrQLLFg5AJmZbZQmMRfJCYHAAivLsCsxzGNATA5ikMbHorGLAYM8kkgQYqSwEJutZCAzdw1Cq4FbpHIZGr+MAlDrMcQAqh34nkSTio6oMaZM/BNAwsAVWDgtWJg7TAdMNQJnDZLSlwBztKQR2CLCT/jqstfUA9QKFIe2H9HxIz6xyXusLLF+YebuABR8KTDRJ6FblxRBYI8DY0AfiO4GByhsEGlVmtDc7JQtYSIwiuYFaCgyIocMKWExMgJFlC+8kLM8FLChGwFRimGfLngtYVPy7EZhqGNgCe/LXXldgJBg1w14VH3RlltFGb+JkPa8DfgILgcGeRWLle8+KZFCM3g15Oozts6U9YSTRsl1PjJ0WU3vmK0PxFlW2BaYS0zw79ozseanD8qe7KzDm7XLYe+I/MCRoHBKU3eMAAAAASUVORK5CYII=" id="image7d24abd677" transform="scale(1 -1) translate(0 -228.24)" x="1066.32" y="-50.4" width="10.8" height="228.24"/>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m2ec6665e9b" d="M 0 0 
+L 3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m2ec6665e9b" x="1077.403861" y="255.780248" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- -0.4 -->
+      <g transform="translate(1084.403861 259.217748) scale(0.1 -0.1)">
+       <defs>
+        <path id="SimHei-30" d="M 225 2537 
+Q 250 3200 412 3587 
+Q 575 3975 875 4225 
+Q 1175 4475 1612 4475 
+Q 2050 4475 2375 4112 
+Q 2700 3750 2800 3200 
+Q 2900 2650 2862 1937 
+Q 2825 1225 2612 775 
+Q 2400 325 1975 150 
+Q 1550 -25 1125 187 
+Q 700 400 525 750 
+Q 350 1100 275 1487 
+Q 200 1875 225 2537 
+z
+M 750 2687 
+Q 675 2000 800 1462 
+Q 925 925 1212 700 
+Q 1500 475 1800 612 
+Q 2100 750 2237 1162 
+Q 2375 1575 2375 2062 
+Q 2375 2550 2337 2950 
+Q 2300 3350 2112 3675 
+Q 1925 4000 1612 4012 
+Q 1300 4025 1062 3700 
+Q 825 3375 750 2687 
+z
+" transform="scale(0.015625)"/>
+        <path id="SimHei-2e" d="M 1075 125 
+L 500 125 
+L 500 675 
+L 1075 675 
+L 1075 125 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#SimHei-2d"/>
+       <use xlink:href="#SimHei-30" transform="translate(50 0)"/>
+       <use xlink:href="#SimHei-2e" transform="translate(100 0)"/>
+       <use xlink:href="#SimHei-34" transform="translate(150 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m2ec6665e9b" x="1077.403861" y="210.060743" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- -0.2 -->
+      <g transform="translate(1084.403861 213.498243) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-2d"/>
+       <use xlink:href="#SimHei-30" transform="translate(50 0)"/>
+       <use xlink:href="#SimHei-2e" transform="translate(100 0)"/>
+       <use xlink:href="#SimHei-32" transform="translate(150 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m2ec6665e9b" x="1077.403861" y="164.341239" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 0.0 -->
+      <g transform="translate(1084.403861 167.778739) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-30"/>
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)"/>
+       <use xlink:href="#SimHei-30" transform="translate(100 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m2ec6665e9b" x="1077.403861" y="118.621735" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 0.2 -->
+      <g transform="translate(1084.403861 122.059235) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-30"/>
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)"/>
+       <use xlink:href="#SimHei-32" transform="translate(100 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m2ec6665e9b" x="1077.403861" y="72.90223" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 0.4 -->
+      <g transform="translate(1084.403861 76.33973) scale(0.1 -0.1)">
+       <use xlink:href="#SimHei-30"/>
+       <use xlink:href="#SimHei-2e" transform="translate(50 0)"/>
+       <use xlink:href="#SimHei-34" transform="translate(100 0)"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_3">
+    <path d="M 1065.973985 278.64 
+L 1071.688923 278.64 
+L 1077.403861 278.64 
+L 1077.403861 50.042478 
+L 1071.688923 50.042478 
+L 1065.973985 50.042478 
+L 1065.973985 278.64 
+z
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_10">
+   <!-- Experiment 5: Frequency Domain Analysis (Demo) -->
+   <g transform="translate(389.56813 18.1375) scale(0.14 -0.14)">
+    <defs>
+     <path id="SimHei-78" d="M 2875 125 
+L 2275 125 
+L 1550 1200 
+L 825 125 
+L 225 125 
+L 1250 1550 
+L 300 2925 
+L 900 2925 
+L 1550 1875 
+L 2200 2925 
+L 2800 2925 
+L 1850 1550 
+L 2875 125 
+z
+" transform="scale(0.015625)"/>
+     <path id="SimHei-35" d="M 550 1325 
+Q 725 650 1150 575 
+Q 1575 500 1837 662 
+Q 2100 825 2212 1087 
+Q 2325 1350 2312 1675 
+Q 2300 2000 2137 2225 
+Q 1975 2450 1725 2525 
+Q 1475 2600 1162 2525 
+Q 850 2450 650 2175 
+L 225 2225 
+Q 275 2375 700 4375 
+L 2675 4375 
+L 2675 3925 
+L 1075 3925 
+Q 950 3250 825 2850 
+Q 1200 3025 1525 3012 
+Q 1850 3000 2150 2862 
+Q 2450 2725 2587 2487 
+Q 2725 2250 2787 2012 
+Q 2850 1775 2837 1500 
+Q 2825 1225 2725 937 
+Q 2625 650 2425 462 
+Q 2225 275 1937 162 
+Q 1650 50 1275 75 
+Q 900 100 562 350 
+Q 225 600 100 1200 
+L 550 1325 
+z
+" transform="scale(0.015625)"/>
+     <path id="SimHei-3a" d="M 1825 2425 
+L 1250 2425 
+L 1250 2975 
+L 1825 2975 
+L 1825 2425 
+z
+M 1825 125 
+L 1250 125 
+L 1250 675 
+L 1825 675 
+L 1825 125 
+z
+" transform="scale(0.015625)"/>
+     <path id="SimHei-41" d="M 3075 125 
+L 2475 125 
+L 2125 1450 
+L 1025 1450 
+L 675 125 
+L 75 125 
+L 1325 4450 
+L 1825 4450 
+L 3075 125 
+z
+M 2000 1925 
+L 1600 3450 
+L 1550 3450 
+L 1150 1925 
+L 2000 1925 
+z
+" transform="scale(0.015625)"/>
+     <path id="SimHei-6c" d="M 1825 125 
+L 1325 125 
+L 1325 4400 
+L 1825 4400 
+L 1825 125 
+z
+" transform="scale(0.015625)"/>
+    </defs>
+    <use xlink:href="#SimHei-45"/>
+    <use xlink:href="#SimHei-78" transform="translate(50 0)"/>
+    <use xlink:href="#SimHei-70" transform="translate(100 0)"/>
+    <use xlink:href="#SimHei-65" transform="translate(150 0)"/>
+    <use xlink:href="#SimHei-72" transform="translate(200 0)"/>
+    <use xlink:href="#SimHei-69" transform="translate(250 0)"/>
+    <use xlink:href="#SimHei-6d" transform="translate(300 0)"/>
+    <use xlink:href="#SimHei-65" transform="translate(350 0)"/>
+    <use xlink:href="#SimHei-6e" transform="translate(400 0)"/>
+    <use xlink:href="#SimHei-74" transform="translate(450 0)"/>
+    <use xlink:href="#SimHei-20" transform="translate(500 0)"/>
+    <use xlink:href="#SimHei-35" transform="translate(550 0)"/>
+    <use xlink:href="#SimHei-3a" transform="translate(600 0)"/>
+    <use xlink:href="#SimHei-20" transform="translate(650 0)"/>
+    <use xlink:href="#SimHei-46" transform="translate(700 0)"/>
+    <use xlink:href="#SimHei-72" transform="translate(750 0)"/>
+    <use xlink:href="#SimHei-65" transform="translate(800 0)"/>
+    <use xlink:href="#SimHei-71" transform="translate(850 0)"/>
+    <use xlink:href="#SimHei-75" transform="translate(900 0)"/>
+    <use xlink:href="#SimHei-65" transform="translate(950 0)"/>
+    <use xlink:href="#SimHei-6e" transform="translate(1000 0)"/>
+    <use xlink:href="#SimHei-63" transform="translate(1050 0)"/>
+    <use xlink:href="#SimHei-79" transform="translate(1100 0)"/>
+    <use xlink:href="#SimHei-20" transform="translate(1150 0)"/>
+    <use xlink:href="#SimHei-44" transform="translate(1200 0)"/>
+    <use xlink:href="#SimHei-6f" transform="translate(1250 0)"/>
+    <use xlink:href="#SimHei-6d" transform="translate(1300 0)"/>
+    <use xlink:href="#SimHei-61" transform="translate(1350 0)"/>
+    <use xlink:href="#SimHei-69" transform="translate(1400 0)"/>
+    <use xlink:href="#SimHei-6e" transform="translate(1450 0)"/>
+    <use xlink:href="#SimHei-20" transform="translate(1500 0)"/>
+    <use xlink:href="#SimHei-41" transform="translate(1550 0)"/>
+    <use xlink:href="#SimHei-6e" transform="translate(1600 0)"/>
+    <use xlink:href="#SimHei-61" transform="translate(1650 0)"/>
+    <use xlink:href="#SimHei-6c" transform="translate(1700 0)"/>
+    <use xlink:href="#SimHei-79" transform="translate(1750 0)"/>
+    <use xlink:href="#SimHei-73" transform="translate(1800 0)"/>
+    <use xlink:href="#SimHei-69" transform="translate(1850 0)"/>
+    <use xlink:href="#SimHei-73" transform="translate(1900 0)"/>
+    <use xlink:href="#SimHei-20" transform="translate(1950 0)"/>
+    <use xlink:href="#SimHei-28" transform="translate(2000 0)"/>
+    <use xlink:href="#SimHei-44" transform="translate(2050 0)"/>
+    <use xlink:href="#SimHei-65" transform="translate(2100 0)"/>
+    <use xlink:href="#SimHei-6d" transform="translate(2150 0)"/>
+    <use xlink:href="#SimHei-6f" transform="translate(2200 0)"/>
+    <use xlink:href="#SimHei-29" transform="translate(2250 0)"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa1c71fd714">
+   <rect x="7.2" y="50.042478" width="228.597522" height="228.597522"/>
+  </clipPath>
+  <clipPath id="p1bfd11c3a8">
+   <rect x="290.261261" y="50.042478" width="228.597522" height="228.597522"/>
+  </clipPath>
+  <clipPath id="p5264cd02ce">
+   <rect x="573.322522" y="50.042478" width="228.597522" height="228.597522"/>
+  </clipPath>
+  <clipPath id="p2740900a3d">
+   <rect x="834.551913" y="55.436735" width="217.809009" height="217.809009"/>
+  </clipPath>
+ </defs>
+</svg>

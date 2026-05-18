@@ -1,0 +1,60 @@
+// GLFA Module Architecture
+digraph GLFA {
+	rankdir=LR splines=ortho
+	node [fontname=Helvetica shape=box style="rounded,filled"]
+	In [label="Input Feature
+(B, C, H, W)" fillcolor="#E1F5FE"]
+	Coord [label="CoordConv
+(Optional)" fillcolor="#E1F5FE"]
+	subgraph cluster_b1 {
+		color=blue label="Branch 1 (Scale p2/p3)" style=dashed
+		B1_C1 [label="Conv 1x3
+Dilation d1" fillcolor="#FFF9C4"]
+		B1_Act1 [label="BN + ReLU" fillcolor=white shape=ellipse]
+		B1_C2 [label="Conv 3x1
+Dilation d1" fillcolor="#FFF9C4"]
+		B1_Act2 [label="BN + ReLU" fillcolor=white shape=ellipse]
+		B1_C1 -> B1_Act1
+		B1_Act1 -> B1_C2
+		B1_C2 -> B1_Act2
+	}
+	subgraph cluster_b2 {
+		color=green label="Branch 2 (Scale p4/p5)" style=dashed
+		B2_C1 [label="Conv 1x3
+Dilation d2" fillcolor="#FFF9C4"]
+		B2_Act1 [label="BN + ReLU" fillcolor=white shape=ellipse]
+		B2_C2 [label="Conv 3x1
+Dilation d2" fillcolor="#FFF9C4"]
+		B2_Act2 [label="BN + ReLU" fillcolor=white shape=ellipse]
+		B2_C1 -> B2_Act1
+		B2_Act1 -> B2_C2
+		B2_C2 -> B2_Act2
+	}
+	Concat [label=Concatenation fillcolor=lightgrey shape=box]
+	subgraph cluster_att {
+		color=purple label="Channel Attention"
+		GAP [label="Global AvgPool" fillcolor="#F3E5F5"]
+		FC [label="FC Layers
+(Squeeze & Excite)" fillcolor="#F3E5F5"]
+		Sig [label=Sigmoid fillcolor="#F3E5F5" shape=ellipse]
+	}
+	Mul [label="⊗" fillcolor="#FFCCBC" shape=circle width=0.5]
+	Fuse [label="Fuse Conv 1x1
+BN + ReLU" fillcolor="#FFF9C4"]
+	Add [label="⊕" fillcolor="#FFCCBC" shape=circle width=0.5]
+	Out [label=Output fillcolor="#E1F5FE"]
+	In -> Coord
+	Coord -> B1_C1
+	Coord -> B2_C1
+	B1_Act2 -> Concat
+	B2_Act2 -> Concat
+	Concat -> GAP
+	GAP -> FC
+	FC -> Sig
+	Sig -> Mul [label=Scale]
+	Concat -> Mul [label=Feat]
+	Mul -> Fuse
+	Fuse -> Add
+	Add -> Out
+	In -> Add [label=Identity style=dashed]
+}

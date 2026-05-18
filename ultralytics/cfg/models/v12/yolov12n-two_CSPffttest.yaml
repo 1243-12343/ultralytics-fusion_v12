@@ -1,0 +1,75 @@
+ch: 6
+nc: 1 # number of classes
+scales: # model compound scaling constants, i.e. 'model=yolo11n.yaml' will call yolo11.yaml with scale 'n'
+  # [depth, width, max_channels]
+  n: [0.50, 0.25, 1024] # summary: 319 layers, 2624080 parameters, 2624064 gradients, 6.6 GFLOPs
+  s: [0.50, 0.50, 1024] # summary: 319 layers, 9458752 parameters, 9458736 gradients, 21.7 GFLOPs
+  m: [0.50, 1.00, 512] # summary: 409 layers, 20114688 parameters, 20114672 gradients, 68.5 GFLOPs
+  l: [1.00, 1.00, 512] # summary: 631 layers, 25372160 parameters, 25372144 gradients, 87.6 GFLOPs
+  x: [1.00, 1.50, 512] # summary: 631 layers, 56966176 parameters, 56966160 gradients, 196.0 GFLOPs
+
+# YOLO11n backbone
+backbone:
+  # [from, repeats, module, args]
+  - [-1, 1, IN, []]  # 0
+  - [-1, 1, Multiin, [1]]  # 1     可见光
+  - [-2, 1, Multiin, [2]]  # 2     红外
+
+  # two stream backbone
+  # Visible branch
+  - [1, 1, Conv, [32, 3, 2]] # 3-P1/2
+  - [-1, 1, DynamicFilterBlock, [32]]  # 4
+  - [-1, 1, Conv, [64, 3, 2]] # 5-P2/4
+  - [-1, 2, C3k2, [128, False, 0.25]]  # 6
+
+  # Infrared branch
+  - [2, 1, Conv, [32, 3, 2]] # 7-P1/2
+  - [-1, 1, DynamicFilterBlock, [32]]  # 8
+  - [-1, 1, Conv, [64, 3, 2]] # 9-P2/4
+  - [-1, 2, C3k2, [128, False, 0.25]]  # 10
+
+  # Channel adjustment layers for first fusion
+  - [6, 1, Conv, [128, 1, 1]]  # 11-adjust
+  - [10, 1, Conv, [128, 1, 1]]  # 12-adjust
+  - [[11, 12], 1, Concat, [1]]  # 13-fusion1
+
+  # Continue processing
+  - [-1, 2, C3k2, [256, False, 0.25]] # 14
+  - [-1, 1, Conv, [256, 3, 2]] # 15
+  - [-1, 2, C3k2, [256, False, 0.25]] # 16
+  - [-1, 1, Conv, [256, 3, 2]] # 17
+
+  # Feature enhancement
+  - [-3, 4, A2C2f, [512, True, 4]] # 18
+  - [-1, 1, Conv, [512, 3, 2]] # 19
+  - [-1, 4, A2C2f, [512, True, 1]] # 20
+
+  # Channel adjustment for second fusion
+  - [15, 1, Conv, [512, 1, 1]]  # 21-adjust
+  - [18, 1, Conv, [512, 1, 1]]  # 22-adjust
+  - [[21, 22], 1, Concat, [1]]  # 23-fusion2
+
+  # Channel adjustment for third fusion
+  - [17, 1, Conv, [512, 1, 1]]  # 24-adjust
+  - [20, 1, Conv, [512, 1, 1]]  # 25-adjust
+  - [[24, 25], 1, Concat, [1]]  # 26-fusion3
+
+# YOLO12-turbo head
+head:
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]]
+  - [[-1, 23], 1, Concat, [1]] # cat backbone P4
+  - [-1, 2, A2C2f, [512, False, -1]] # 29
+
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]]
+  - [[-1, 13], 1, Concat, [1]] # cat backbone P3
+  - [-1, 2, A2C2f, [256, False, -1]] # 32
+
+  - [-1, 1, Conv, [256, 3, 2]]
+  - [[-1, 29], 1, Concat, [1]] # cat head P4
+  - [-1, 2, A2C2f, [512, False, -1]] # 35
+
+  - [-1, 1, Conv, [512, 3, 2]]
+  - [[-1, 26], 1, Concat, [1]] # cat head P5
+  - [-1, 2, C3k2, [1024, True]] # 38 (P5/32-large)
+
+  - [[32, 35, 38], 1, Detect, [nc]] # 39 Detect(P3, P4, P5)
